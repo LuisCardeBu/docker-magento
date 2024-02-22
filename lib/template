@@ -8,7 +8,7 @@ mv compose/.gitignore ./
 mv compose/.vscode ./
 rm -rf compose .git
 git init
-chdmod +x bin/*
+chmod +x bin/*
 
 # Ensure these are created so Docker doesn't create them as root
 mkdir -p ~/.composer ~/.ssh
